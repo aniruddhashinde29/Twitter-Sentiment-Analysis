@@ -7,6 +7,6 @@ Following are the files and their use:
 
 2. stop_words.txt - This file contains stop words. If these words were present in the tweet, they were removed from the tweet as a part of cleaning.
 
-3. corpus.txt - This file has keywords and their corresponding score. A score for a tweet is calculated based on the keywords present in the tweet by adding the scores of each keyword.
+3. corpus.txt - This file has keywords and a single digit (positive OR negative) score is associated with it. Using ths file, score for each keyword in the tweet is found and added to get a score for the entire tweet.
 
 4. SentimentAnalysis.ipynb - This is a Jupyter notebook which contains the code for the analysis.
